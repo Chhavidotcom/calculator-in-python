@@ -1,0 +1,17 @@
+print("hello")
+print('choose the operation')
+print('1 for addition , 2 for subtraction ,3 for multiplication ,4 for division ,5 for remainder ')
+ch=int(input())
+a=int(input('enter first number '))
+b=int(input('enter second number '))
+if(ch==1):
+  print(a+b)
+elif(ch==2):
+  print(a-b)
+elif(ch==3):
+  print(a*b)
+elif(ch==4):
+  print(a//b)
+  print(a/b)
+else:
+  print(a%b)
